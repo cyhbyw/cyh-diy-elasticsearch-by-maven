@@ -1,0 +1,15 @@
+
+
+The Main Class:
+  org.elasticsearch.bootstrap.Elasticsearch
+
+args:
+-Des.path.home=D:\openSource\elasticsearch-cyh-v6.1.2\eshome
+-Des.path.conf=D:\openSource\elasticsearch-cyh-v6.1.2\eshome\config
+-Xms1G -Xmx1G
+-Dlog4j2.disable.jmx=true
+-Djava.security.policy=D:\openSource\elasticsearch-cyh-v6.1.2\eshome\config\elasticsearch.policy
+
+
+src/main/resources下的资源需要拷贝过来，尤其是那些 *.policy 文件，不然启动会报错
+
